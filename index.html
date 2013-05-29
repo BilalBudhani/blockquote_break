@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redactor</title>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="lib/jquery-1.9.0.min.js"></script>
+
+
+  <!-- Redactor is here -->
+  <link rel="stylesheet" href="redactor/redactor.css" />
+  <script src="redactor/redactor.min.js"></script>
+  <script type="text/javascript" src="lib/line_break.js"></script>
+  
+  <script type="text/javascript">
+  $(document).ready(
+    function()
+    {
+      $('#redactor').redactor({
+        plugins: ['line_break']
+      });
+    }
+  );
+
+  function line_break(obj, event) {
+
+  }
+  </script>
+
+</head>
+<body>
+  <div id="page">
+
+    <textarea id="redactor" name="content">
+    <h2></h2><br><br><p>On Sat, May 25, 2013 at 9:56 PM, Shawn Davenport&nbsp;&lt;<a href="mailto:support@github.com">support@github.com</a>&gt;&nbsp;wrote:<br></p><blockquote>Hi Bilal,<br>Thanks for contacting us. This is a concern we are aware of,&nbsp;<a href="https://help.github.com/articles/why-are-my-commits-linked-to-the-wrong-user">https://help.github.com/articles/why-are-my-commits-linked-to-the-wrong-user</a><br><br>Because the commit attribution information is only used for display purposes, and does not grant any additional account or repo access to either you or the party who's information is being used, we do not consider this a security issue.<br><br>Regards,<br>Shawn</blockquote><blockquote><br>--&nbsp;<br>Best Regards,<p>Bilal Budhani</p><p>+91-98920-68490</p><div><a href="http://bilalbudhani.me/">bilalbudhani.me</a>&nbsp;|&nbsp;<a href="http://in.linkedin.com/in/bilalbudhani">LinkedIn</a><p></p></div></blockquote><p></p>
+    </textarea>
+
+  </div>
+</body>
+</html>
