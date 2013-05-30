@@ -11,15 +11,15 @@
 
   <!-- Redactor is here -->
   <link rel="stylesheet" href="redactor/redactor.css" />
-  <script src="redactor/redactor.min.js"></script>
-  <script type="text/javascript" src="lib/line_break.js"></script>
+  <script src="redactor/redactor.js"></script>
+  <script type="text/javascript" src="lib/blockquote_break.js"></script>
   
   <script type="text/javascript">
   $(document).ready(
     function()
     {
       $('#redactor').redactor({
-        plugins: ['line_break']
+        plugins: ['blockquote_break']
       });
     }
   );

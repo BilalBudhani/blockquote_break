@@ -1624,7 +1624,6 @@ var RLANG = {
 				var node = $(this.opts.emptyHtml).get(0);
 				this.$editor.html(node);
 				this.setSelection(node, 0, node, 0);
-
 				this.syncCode();
 				return false;
 			}
