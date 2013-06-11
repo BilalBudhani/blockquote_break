@@ -24,3 +24,8 @@ body {
 .list li {
 	margin: 10px 0;
 }
+
+blockquote {
+  border-left: 1px solid #919191;
+  padding-left: 15px;
+}
