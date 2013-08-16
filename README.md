@@ -39,3 +39,7 @@ to
  </blockquote>                                  
  </body>                                     
  ```
+
+## The MIT License (MIT)
+
+Copyright (c) 2013 Bilal Budhani
