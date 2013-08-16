@@ -9,16 +9,16 @@ Redactor plugin to break blockquote (like gmail)
 
 ## How to use it?
 Call it in `plugins` option like this:
-```
+```javascript
 $('#redactor').redactor({
-        plugins: ['blockquote_break']
+  plugins: ['blockquote_break']
 });
 ```
 
 ## What is does?
 Converts this
 
-```
+```html
 <body>                                           
  <blockquote>                                   
   This is a comment which has been quoted.
@@ -28,7 +28,7 @@ Converts this
  ```
 to 
 
- ```
+ ```html
 <body>                                           
  <blockquote>                                   
   This is a comment which has been quoted.
